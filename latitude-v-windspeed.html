@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Latitude vs. Windspeed</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="hw11style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm bg-light navbar-light sticky-top">
+    <a class="navbar-brand" href="index.html">Latitude vs. X</a>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="comparisons.html">Comparisons</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="data.html">Data</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+          Plots
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="latitude-v-temp.html">Latitude vs. Temperature</a>
+          <a class="dropdown-item" href="latitude-v-humidity.html">Latitude vs. latitude-v-humidity</a>
+          <a class="dropdown-item" href="latitude-v-cloudiness.html">Latitude vs. Cloudiness</a>
+          <a class="dropdown-item" href="latitude-v-windspeed.html">Latitude vs. Windspeed</a>
+        </div>
+      </li>
+    </ul>
+  </nav>
+       
+
+    <div class="container">
+        <div class="row">
+          <div class="col-md-9 col-md-push-3">
+            <h1>Summary: Latitude vs. Wind Speed</h1>
+            <p>This is the graph for City Latitude vs. Wind Speed. 
+              As you can see, the data for this scatter plot is very varied. They heaviest amount of dots accumulates
+              at around 5 miles per hour and ranges from around -40 latitude to 70 latitude. What I got from this graph is that the 
+              highest wind speeds happen farther away from the equator. The highest wind speeds are at 35 miles per hour. 
+              It appears that the lowest are at zero although I have a hard time believing that anywhere has zero wind speed.  
+            </p>
+            <div class="column">
+                <a href="#"">
+                <img src="visualizations\Fig4.png" alt="City Latitude vs. Windspeed" height="375" width="500"/>
+            </div>
+
+          </div>
+          <div class="col-md-3 col-md-pull-9" id="viz">
+            <h1>Visualizations</h1>
+             <div class="row" id=sidebar>
+              <div class="column" id="sidebar-item">
+                 <a href= "latitude-v-temp.html">
+                 <img src="visualizations\Fig1.png" class="img-thumbnail" alt="City Latitude vs. Max Temperature" height="200" width="200"/>
+                 <p>City Latitude vs. Max Temperature</p>
+                 </a>
+              </div> 
+              <div class="column" id="sidebar-item">
+                 <a href="latitude-v-humidity.html">
+                 <img src="visualizations\Fig2.png" class="img-thumbnail" alt="City Latitude vs. Humidity" height="200" width="200"/>
+                 <p>City Latitude vs. Humidity</p>
+                 </a>
+                </div>
+               <div class="column" id="sidebar-item">
+                 <a href="latitude-v-cloudiness.html">
+                 <img src="visualizations\Fig3.png" class="img-thumbnail" alt="City Latitude vs. Cloudiness" height="200" width="200"/>
+                 <p>City Latitude vs. Cloudiness</p>
+                 </a>
+                </div>
+               <div class="column" id="sidebar-item"> 
+                 <a href="latitude-v-windspeed.html">
+                 <img src="visualizations\Fig4.png" class="img-thumbnail" alt="City Latitude vs. Windspeed" height="200" width="200"/>
+                 <p>City Latitude vs. Wind Speeed</p>
+                 </a>
+              </div>
+           </div>
+          
+        </div>
+       </div>
+       
+       </body>
+
+</body>
+<!--
+
+nav bar
+
+
+
+Latitude vs. Humidity
+Bootstrap 9-3
+
+<h1> Max temperature
+<img> latitude vs. windspeed
+<p> analysis of graph </p>
+
+
+<h1> visualizations 
+figure out some way to make quad graph clickable. probably in the CSS
+</body>
+
+
+-->
